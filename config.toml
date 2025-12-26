@@ -1,0 +1,84 @@
+# ==========================================
+# 基础设置
+# ==========================================
+baseURL = "https://example.org/"
+title = "Houli Jiang"
+languageCode = "zh-cn"
+theme = "mainroad"
+
+# 分页设置 (Hugo v0.128+ 兼容语法)
+[pagination]
+  pagerSize = 10
+
+# ==========================================
+# 导航菜单 (对应你要求的各个模块)
+# ==========================================
+[[menu.main]]
+  name = "最近项目 (工作坊)"
+  pre = "🎨"
+  url = "/workshop/"
+  weight = 10
+
+[[menu.main]]
+  name = "个人日记"
+  pre = "✍️"
+  url = "/diary/"
+  weight = 20
+
+[[menu.main]]
+  name = "读书笔记"
+  pre = "📚"
+  url = "/notes/"
+  weight = 30
+
+[[menu.main]]
+  name = "个人学术页"
+  pre = "🎓"
+  url = "/academic/"
+  weight = 40
+
+[[menu.main]]
+  name = "关于我"
+  pre = "👤"
+  url = "/about/"
+  weight = 50
+
+# ==========================================
+# 作者信息
+# ==========================================
+[Params.Author]
+  name = "Houli Jiang"
+  bio = "这里写你的个人简介..."
+  avatar = "img/avatar.png"
+# ==========================================
+# 主题外观与功能参数
+# ==========================================
+[Params]
+  description = "Houli Jiang 的个人学术与生活记录站"
+  readmore = true 
+  authorbox = true
+  post_meta = ["date", "categories"]
+  mainSections = ["post", "workshop", "diary", "notes"]
+
+[Params.logo]
+  title = "Houli Jiang"
+  subtitle = "学术与生活之记录"
+
+[Params.sidebar]
+  home = "right"   
+  list = "right"   
+  single = "right" 
+  # 侧边栏小部件，social 负责显示你的邮件/微信
+  widgets = ["search", "recent", "categories", "taglist", "social"]
+
+[Params.widgets]
+  recent_num = 5 
+  tags_counter = false
+
+# ==========================================
+# 社交/评论替代方案 (联系方式)
+# ==========================================
+[Params.social]
+  email = "yourname@example.com"      # 换成你的邮箱
+  github = "your-github-id"          # 选填
+  # 你也可以根据 Mainroad 文档添加其他图标
