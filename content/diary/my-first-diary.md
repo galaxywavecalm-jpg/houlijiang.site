@@ -2,6 +2,7 @@
 date = '2025-12-26T21:30:14+08:00'
 draft = false
 title = 'My First Diary'
+Author = 'Houli Jiang'
 +++
 今天开始了网站搭建的第一步......
 

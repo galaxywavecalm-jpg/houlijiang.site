@@ -2,10 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/about/</loc>
-    <lastmod>2025-12-26T21:35:55+08:00</lastmod>
+    <loc>http://localhost:1313/academic/</loc>
+    <lastmod>2025-12-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2025-12-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
+    <lastmod>2025-12-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/%E6%96%87%E7%AB%A0-academic/</loc>
+    <lastmod>2025-12-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/academic/%E7%8E%B0%E5%AE%9E%E4%BD%9C%E4%B8%BA%E6%9C%AC%E4%BD%93%E8%AE%BA/</loc>
+    <lastmod>2025-12-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/about/</loc>
     <lastmod>2025-12-26T21:35:55+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/workshop/workshop-intro/</loc>
@@ -17,11 +29,22 @@
     <loc>http://localhost:1313/diary/</loc>
     <lastmod>2025-12-26T21:30:14+08:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/categories/diary/</loc>
+    <lastmod>2025-12-26T21:30:14+08:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/diary/my-first-diary/</loc>
     <lastmod>2025-12-26T21:30:14+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>http://localhost:1313/diary/%E5%BE%97%E6%88%91%E4%B9%8B%E5%B9%B8%E5%A4%B1%E4%B9%8B%E6%88%91%E5%91%BD/</loc>
+    <lastmod>2025-12-26T21:30:14+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-12-26T21:30:14+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/%E6%B5%8B%E8%AF%95/</loc>
+    <lastmod>2025-12-26T21:30:14+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/%E7%94%9F%E6%B4%BB/</loc>
+    <lastmod>2025-12-26T21:30:14+08:00</lastmod>
   </url>
 </urlset>

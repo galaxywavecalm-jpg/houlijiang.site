@@ -1,84 +1,92 @@
 # ==========================================
-# 基础设置
+# 1. 基础设置
 # ==========================================
-baseURL = "https://example.org/"
-title = "Houli Jiang"
+baseURL = "https://houli-jiang.pages.dev/"
+title = "姜厚利 Houli Jiang"
 languageCode = "zh-cn"
 theme = "mainroad"
 
-# 分页设置 (Hugo v0.128+ 兼容语法)
 [pagination]
   pagerSize = 10
 
 # ==========================================
-# 导航菜单 (对应你要求的各个模块)
+# 2. 导航菜单
 # ==========================================
 [[menu.main]]
-  name = "最近项目 (工作坊)"
-  pre = "🎨"
-  url = "/workshop/"
+  name = "关于我 about me"
+  url = "/about/"
   weight = 10
 
 [[menu.main]]
-  name = "个人日记"
-  pre = "✍️"
-  url = "/diary/"
+  name = "工作坊 workshop"
+  url = "/workshop/"
   weight = 20
 
 [[menu.main]]
-  name = "读书笔记"
-  pre = "📚"
-  url = "/notes/"
+  name = "札记 book talk"
+  url = "/book talk/"
   weight = 30
 
 [[menu.main]]
-  name = "个人学术页"
-  pre = "🎓"
+  name = "文章 academic"
   url = "/academic/"
   weight = 40
 
 [[menu.main]]
-  name = "关于我"
-  pre = "👤"
-  url = "/about/"
+  name = "日记 Dairy"
+  url = "/dairy/"
   weight = 50
 
+[[menu.main]]
+  name = "对话 Dialogue"
+  url = "/dialogue/"
+  weight = 50
+  
 # ==========================================
-# 作者信息
-# ==========================================
-[Params.Author]
-  name = "Houli Jiang"
-  bio = "这里写你的个人简介..."
-  avatar = "img/avatar.png"
-# ==========================================
-# 主题外观与功能参数
+# 3. 主题核心参数
 # ==========================================
 [Params]
   description = "Houli Jiang 的个人学术与生活记录站"
   readmore = true 
-  authorbox = true
+  authorbox = false
+  pager = true
   post_meta = ["date", "categories"]
   mainSections = ["post", "workshop", "diary", "notes"]
+  customCSS = ["css/custom.css"]
 
+# ==========================================
+# 4. 作者信息 (放在 Params 下)
+# ==========================================
+[Params.author]
+  name = "姜厚利 Houli Jiang"
+  bio = "我的生活、学术与社会记录平台。"
+  avatar = "img/avatar.png"
+
+# ==========================================
+# 5. Logo 设置
+# ==========================================
 [Params.logo]
-  title = "Houli Jiang"
-  subtitle = "学术与生活之记录"
+  image = "img/arimura.jpg" 
+  title = "姜厚利 Houli Jiang"
+  subtitle = "生活，学术，社会"
 
+# ==========================================
+# 6. 侧边栏设置
+# ==========================================
 [Params.sidebar]
   home = "right"   
   list = "right"   
   single = "right" 
-  # 侧边栏小部件，social 负责显示你的邮件/微信
   widgets = ["search", "recent", "categories", "taglist", "social"]
 
 [Params.widgets]
   recent_num = 5 
-  tags_counter = false
+  tags_counter = true
 
+# 7. 社交链接（完整版）
 # ==========================================
-# 社交/评论替代方案 (联系方式)
-# ==========================================
-[Params.social]
-  email = "yourname@example.com"      # 换成你的邮箱
-  github = "your-github-id"          # 选填
-  # 你也可以根据 Mainroad 文档添加其他图标
+[Params.widgets.social]
+  email = "Snow240013@outlook.com"
+  github = "https://github.com/nguyentuan261994-spec"
+  wechat = "shijiangxiaowa"
+  BiliBili = "https://space.bilibili.com/你的B站UID"

@@ -1,0 +1,15 @@
+/* 1. 仅针对侧边栏标题：强制大写 */
+.widget__title {
+    text-transform: uppercase !important;
+    letter-spacing: 1px; /* 增加一点字间距，更有学术质感 */
+}
+
+/* 2. 针对顶栏名字：取消强制大写，保持你在 config.toml 里的原始书写 */
+.logo__title {
+    text-transform: none !important;
+}
+
+/* 3. 如果副标题也变大写了，可以用这一行修正 */
+.logo__tagline {
+    text-transform: none !important;
+}
